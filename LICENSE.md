@@ -1,7 +1,6 @@
+# MIT License
 
-The MIT License (MIT)
-
-Copyright (c) 2022 Sam Herniman
+Copyright (c) 2022 R.inat.fxns authors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
