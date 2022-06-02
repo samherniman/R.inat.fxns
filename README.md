@@ -11,7 +11,9 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 status](https://www.r-pkg.org/badges/version/R.inat.fxns)](https://CRAN.R-project.org/package=R.inat.fxns)
 <!-- badges: end -->
 
-The goal of R.inat.fxns is to …
+The goal of R.inat.fxns is to provide some functions that make
+downloading iNat observations from multiple projects easy. Please use
+responsibly.
 
 ## Installation
 
@@ -25,15 +27,14 @@ devtools::install_github("samherniman/R.inat.fxns")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+Load the package with:
 
 ``` r
 library(R.inat.fxns)
 ## basic example code
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`?
-You can include R chunks like so:
+Make a list of iNat project slugs to download from
 
 ``` r
 projects_vec <- c(
@@ -45,11 +46,13 @@ projects_vec <- c(
 )
 ```
 
+Download all the observations in each project
+
 ``` r
 obs_sf <- download_many_projects(projects_vec)
-#> 3136 records
+#> 3178 records
 #> 
-#> 3136 records
+#> 3178 records
 #> Getting records 0-200
 #> Getting records up to 400
 #> Getting records up to 600
@@ -80,9 +83,9 @@ obs_sf <- download_many_projects(projects_vec)
 #> Getting records up to 1600
 #> Getting records up to 1800
 #> Done.
-#> 1638 records
+#> 1636 records
 #> 
-#> 1638 records
+#> 1636 records
 #> Getting records 0-200
 #> Getting records up to 400
 #> Getting records up to 600
@@ -93,9 +96,9 @@ obs_sf <- download_many_projects(projects_vec)
 #> Getting records up to 1600
 #> Getting records up to 1800
 #> Done.
-#> 1644 records
+#> 1648 records
 #> 
-#> 1644 records
+#> 1648 records
 #> Getting records 0-200
 #> Getting records up to 400
 #> Getting records up to 600
@@ -106,9 +109,9 @@ obs_sf <- download_many_projects(projects_vec)
 #> Getting records up to 1600
 #> Getting records up to 1800
 #> Done.
-#> 2791 records
+#> 2886 records
 #> 
-#> 2791 records
+#> 2886 records
 #> Getting records 0-200
 #> Getting records up to 400
 #> Getting records up to 600
@@ -123,5 +126,6 @@ obs_sf <- download_many_projects(projects_vec)
 #> Getting records up to 2400
 #> Getting records up to 2600
 #> Getting records up to 2800
+#> Getting records up to 3000
 #> Done.
 ```

@@ -1,5 +1,5 @@
 Package: R.inat.fxns
-Title:  Small Functions To Help With iNaturalist Workflows
+Title: Small Functions To Help With iNaturalist Workflows
 Version: 0.0.0.9000
 Authors@R: 
     person("Sam", "Herniman", , "onlybatsam@gmail.com", role = c("aut", "cre"),
@@ -11,7 +11,7 @@ Suggests:
 Config/testthat/edition: 3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.0
 Imports: 
     dplyr,
     rinat,
