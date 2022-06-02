@@ -37,7 +37,6 @@ Load the package with:
 
 ```{r example}
 library(R.inat.fxns)
-## basic example code
 ```
 
 Make a list of iNat project slugs to download from
@@ -54,7 +53,7 @@ projects_vec <- c(
 
 Download all the observations in each project
 
-```{r}
+```{r eval = FALSE}
 obs_sf <- download_many_projects(projects_vec)
 ```
 
