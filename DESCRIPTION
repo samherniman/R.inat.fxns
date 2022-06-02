@@ -3,7 +3,7 @@ Title:  Small Functions To Help With iNaturalist Workflows
 Version: 0.0.0.9000
 Authors@R: 
     person("Sam", "Herniman", , "onlybatsam@gmail.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+           comment = c(ORCID = "0000-0001-7663-2897"))
 Description: Tools to assist with downloading and exploring iNaturalist data.
 License: MIT + file LICENSE
 Suggests: 
